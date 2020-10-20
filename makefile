@@ -1,7 +1,7 @@
 .PHONY: build
 
 build:
-	g++ ./ak3.cpp -o ak3
+	g++ ./main.cpp -o ak3
 
 default_goal: build def
 .PHONY: def
